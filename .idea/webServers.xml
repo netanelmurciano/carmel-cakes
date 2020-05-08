@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3b227327-11e0-4e4d-8e8d-9e577ded542f" name="gs" url="http://gs.boombagames.co.il/">
+        <fileTransfer host="gs.boombagames.co.il" port="21" rootFolder="/gs.boombagames.co.il/wp-content">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
