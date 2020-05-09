@@ -34,14 +34,16 @@ $height = $responsive == 'mobile' ? '50vh' : '71vh';
                     <?php $counter++ ?>
                 <?php endwhile; ?>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span><i class="fa fa-angle-left fa-4x"></i></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span><i class="fa fa-angle-right fa-4x"></i></span>
-                <span class="sr-only">Next</span>
-            </a>
+           <div class="d-flex">
+               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                   <span><i class="fa fa-angle-left fa-4x"></i></span>
+                   <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                   <span><i class="fa fa-angle-right fa-4x"></i></span>
+                   <span class="sr-only">Next</span>
+               </a>
+           </div>
         </div>
     </div>
 </section>

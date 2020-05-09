@@ -4,6 +4,9 @@ $header-height-desktop: 80px;
 $hide-dd-arrwos-desktop: true;
 
 header {
+  position: sticky;
+  z-index: 99;
+  background-color: white;
   .container-fluid {
     height: $header-height-desktop;
     .menu-wrapper {

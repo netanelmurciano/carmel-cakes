@@ -26,7 +26,7 @@ $tax_bg = get_field('tax_bg_image');
 
                         <?php $btn = get_field('about_btn_text') ?>
                         <?php if ($btn) : ?>
-                        <div data-aos="fade-up" id="readMoreBtn"
+                        <div data-aos="fade-up"
                              class="text-center py-3 d-flex justify-content-center justify-content-lg-start ">
                             <?php
                             sogo_print_btn(array(
@@ -63,7 +63,15 @@ $tax_bg = get_field('tax_bg_image');
         <h2 class="h1 mb-3 h-border-top text-center" data-aos="fade-down">
             <?php the_field('cakes_title', 'option'); ?>
         </h2>
-        <?php include "templates/section-cakes-slider.php"; ?>
+        <?php include "templates/section-cakes.php"; ?>
+    </section>
+
+    <!-- Desserts -->
+    <section class="container-fluid py-3" data-aos="fade-down">
+        <h2 class="h1 mb-3 h-border-top text-center" >
+            <?php the_field('desserts_title', 'option'); ?>
+        </h2>
+        <?php include "templates/section-desserts.php"; ?>
     </section>
 
     <!-- Contact Us Section -->

@@ -29,6 +29,19 @@ function custom_post_type()
                 'thumbnail',
             )
 
+        ),
+        $return[] = array(
+            'type' => 'desserts',
+            'label' => 'קינוחים',
+            'menu_icon' => 'dashicons-welcome-write-blog',
+            'hierarchical' => false,
+            'supports' => array(
+                'title',
+                'editor',
+                'excerpt',
+                'thumbnail',
+            )
+
         )
 
     );
