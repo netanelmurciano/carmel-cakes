@@ -10,7 +10,7 @@ $libIncludes = array(
 //************* Loading Style ********************/
 function my_theme_enqueue_styles() {
     wp_enqueue_style( 'bootstrap-min-css', get_stylesheet_directory_uri() . '/src/bootstrap/bootstrap.min.css');
-    wp_enqueue_style( 'child-sass', get_stylesheet_directory_uri() . '/dist/style/style.min.css', array(), uniqid(), 'all' );
+    wp_enqueue_style( 'style', get_stylesheet_directory_uri() . '/style.min.css', array(), uniqid(), 'all' );
     wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array() );
     wp_enqueue_style( 'aos-css', get_stylesheet_directory_uri() . '/src/aos/aos.css',  array());
 }

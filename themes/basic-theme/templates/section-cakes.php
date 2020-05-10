@@ -18,7 +18,7 @@ $_posts = new WP_Query($_posts_args);
             <div class="col-12 col-md-8 mx-auto">
                 <div class="row d-flex justify-content-center py-3">
                     <?php while ($_posts->have_posts()): $_posts->the_post(); ?>
-                        <div class="col-12 col-md-4 text-center">
+                        <div class="col-12 col-md-4 text-center zoom-hover">
                             <?php if (has_post_thumbnail()): ?>
                                 <img src="<?php the_post_thumbnail_url('small_image'); ?>" class="w-100"
                                      data-aos="flip-right">

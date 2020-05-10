@@ -18,6 +18,11 @@
                     <?php endwhile; ?>
                     <?php wp_reset_postdata(); ?>
                 </div>
+
+                <!-- PAGE-NAVIGATION -->
+                <div class="page-navigation text-center">
+                    <?php function_exists( 'wp_pagenavi' ) ? wp_pagenavi() : null; ?>
+                </div>
             </div>
         </div>
     </div>

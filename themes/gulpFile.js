@@ -46,7 +46,7 @@ function css() {
         .pipe(rename({ suffix: ".min" }))
         .pipe(postcss([autoprefixer(), cssnano()]))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest(themeLocation + 'dist/style'))
+        .pipe(gulp.dest(themeLocation))
         .pipe(browsersync.stream());
 }
 

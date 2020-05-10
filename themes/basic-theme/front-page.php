@@ -48,7 +48,7 @@ $tax_bg = get_field('tax_bg_image');
     </section>
 
     <!-- Taxonomies-->
-    <section class="container-fluid py-3" <?php sogo_print_bg(array(
+    <section class="container-fluid py-3 bg-white" <?php sogo_print_bg(array(
         'url' => $tax_bg,
         'size' => 'cover',
         'position' => 'left ',
@@ -67,7 +67,7 @@ $tax_bg = get_field('tax_bg_image');
     </section>
 
     <!-- Desserts -->
-    <section class="container-fluid py-3" data-aos="fade-down">
+    <section class="container-fluid py-3 bg-white" data-aos="fade-down">
         <h2 class="h1 mb-3 h-border-top text-center" >
             <?php the_field('desserts_title', 'option'); ?>
         </h2>

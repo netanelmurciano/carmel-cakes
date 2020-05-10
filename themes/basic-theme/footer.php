@@ -1,6 +1,4 @@
-
-
-<footer class="bg-light">
+<footer class="bg-white">
     <div class="container">
         <div class="row py-3">
             <div class="col-md-3 py-2 mb-2 mb-md-0">
@@ -10,7 +8,7 @@
                 <?php $phone = get_field( 'contact_phone', 'option' ); ?>
                 <a class="text-color-1 d-flex justify-content-center justify-content-lg-start align-items-center mt-2"
                    href="tel:<?php echo $phone?>">
-                    <span class="icon-mobile icon-s text-color-1"></span>
+                    <span class=" icon-s text-color-1"><i class="fa fa-phone" aria-hidden="true"></i></span>
                     <span class="h6 mb-0 white-space-nowrap hover-color-3 transition"><?php echo $phone ?></span>
                 </a>
 
@@ -22,7 +20,6 @@
                     'theme_location' => 'primary_menu',
                     'container' => false,
                     'depth' => 0,
-                    //'walker'         => new SogoToolbarWalker()
                 ));
                 ?>
             </div>
